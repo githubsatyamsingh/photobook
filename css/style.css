@@ -272,7 +272,7 @@ ul {
 }
 
 .advantage_Section p {
-  font-size: 1.4rem;
+  font-size: 1.6rem;
 }
 
 .advantage button {
@@ -337,7 +337,7 @@ ul {
   content: '';
   width: 2rem;
   height: 2rem;
-  background: url(../images/list.png) no-repeat center center/cover;
+  background: url(../images/icons/list.png) no-repeat center center/cover;
   position: absolute;
   left: 0;
 }
@@ -398,7 +398,7 @@ ul {
 }
 
 .testimonials {
-  background: url(../images/bg_testimonial.jpg) no-repeat center center/cover;
+  background: url(../images/banner/bg_testimonial.jpg) no-repeat center center/cover;
   padding-bottom: 5rem;
   margin-bottom: 10rem;
 }
@@ -634,11 +634,11 @@ footer .sitemap_div {
     padding: 1.5rem 0;
   }
   .btn_contact {
-    margin-right: 1rem;
+    margin-right: 1.75rem;
     padding: 1rem;
   }
   .navbar-toggler {
-    margin-right: 1rem;
+    margin-right: 2rem;
   }
   .btn_photobook {
     font-size: 2rem;
