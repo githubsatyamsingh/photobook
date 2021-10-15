@@ -4,16 +4,16 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="icon" href="images/favicon.png">
     <meta name="title" content="Photobook">
     <meta name="keywords" content="HTML, CSS(SCSS,AOS Css), Bootstrap 4,JQuery,Media Query">
     <meta name="description" content="This is My First Assignment given By intouchsol.com">
     <meta name="author" content="Satyam Singh | Frontend Web Developer">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Photobook</title>
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap">
+    <link rel="stylesheet" href="css/aos.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 
@@ -24,12 +24,14 @@
         <div class="container container_header">
             <nav class="navbar">
                 <div class="d-flex align-center">
-                    <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">  <img src="images/toggle.png" class="toggle_btn_open" alt="Photobook"><img src="images/toggle_close.png" class="toggle_btn_close" alt="Photobook"> </button>
+                    <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">  
+                        <img src="images/icons/toggle.png" class="toggle_btn_open" alt="Photobook">
+                        <img src="images/icons/toggle_close.png" class="toggle_btn_close" alt="Photobook"> </button>
                     <a class="navbar-brand m-0" href="#"> <img src="images/logo.png" alt="Photobook"> </a>
                 </div>
                 <div>
                     <a class="btn_contact" href="tel:+11 235 813 2134"> <span class="d-md-inline d-none">+11 235 813 2134</span> <span class="d-md-none">&#9742;</span> </a>
-                    <a class="navbar-brand m-0 signin" href="#"> <img src="images/login.png" alt="Login" data-toggle="tooltip" title="Login Now"> </a>
+                    <a class="navbar-brand m-0 signin" href="#"> <img src="images/icons/login.png" alt="Login" data-toggle="tooltip" title="Login Now"> </a>
                 </div>
                 <div class="collapse navbar-collapse" id="collapsibleNavbar">
                     <ul class="navbar-nav">
@@ -51,7 +53,7 @@
     </header>
     <!-- Header section End -->
     <!-- Main Banner section Start -->
-    <section class="main_banner position-relative"> <img src="images/banner.jpg" alt="Photobook" class="img-fluid">
+    <section class="main_banner position-relative"> <img src="images/banner/home_banner.jpg" alt="Photobook" class="img-fluid">
         <div class="text-center position-absolute h-100 w-100 align-items-center d-flex flex-column main_banner_content">
             <h1 class="text-uppercase main_banner_heading mb-0">Create your own photostory</h1>
             <p> Make your photobook online </p>
@@ -65,7 +67,7 @@
             <div class="row">
                 <div class="col-sm-3">
                     <div class="step_Circle">
-                        <div class="step_Circle_Icon d-flex align-items-center justify-content-center"> <img src="images/download_photos.png" class="img-fluid" alt="Photobook"> </div>
+                        <div class="step_Circle_Icon d-flex align-items-center justify-content-center"> <img src="images/icons/download_photos.png" class="img-fluid" alt="Photobook"> </div>
                         <div class="step_Circle_Title">
                             <h4 class="d-md-block d-none">Download <br> photos</h4>
                             <h4 class="d-md-none d-block m-0">Download photos</h4>
@@ -74,7 +76,7 @@
                 </div>
                 <div class="col-sm-3">
                     <div class="step_Circle">
-                        <div class="step_Circle_Icon d-flex align-items-center justify-content-center"> <img src="images/design_your_photobook.png" class="img-fluid" alt="Photobook"> </div>
+                        <div class="step_Circle_Icon d-flex align-items-center justify-content-center"> <img src="images/icons/design_your_photobook.png" class="img-fluid" alt="Photobook"> </div>
                         <div class="step_Circle_Title">
                             <h4 class="d-md-block d-none">Design your <br> photobook</h4>
                             <h4 class="d-md-none d-block m-0">Design your photobook</h4>
@@ -83,7 +85,7 @@
                 </div>
                 <div class="col-sm-3">
                     <div class="step_Circle">
-                        <div class="step_Circle_Icon d-flex align-items-center justify-content-center"> <img src="images/pay_for_service.png" class="img-fluid" alt="Photobook"> </div>
+                        <div class="step_Circle_Icon d-flex align-items-center justify-content-center"> <img src="images/icons/pay_for_service.png" class="img-fluid" alt="Photobook"> </div>
                         <div class="step_Circle_Title">
                             <h4 class="d-md-block d-none">Pay <br> for service</h4>
                             <h4 class="d-md-none d-block m-0">Pay for service</h4>
@@ -92,7 +94,7 @@
                 </div>
                 <div class="col-sm-3">
                     <div class="step_Circle step_Circle_Last">
-                        <div class="step_Circle_Icon d-flex align-items-center justify-content-center"> <img src="images/get_your-photobook.png" class="img-fluid" alt="Photobook"> </div>
+                        <div class="step_Circle_Icon d-flex align-items-center justify-content-center"> <img src="images/icons/get_your-photobook.png" class="img-fluid" alt="Photobook"> </div>
                         <div class="step_Circle_Title">
                             <h4 class="d-md-block d-none">Get your <br> photobook</h4>
                             <h4 class="d-md-none d-block m-0">Get your photobook</h4>
@@ -114,7 +116,7 @@
                 </div>
                 <div class="col-lg-4 col-md-5 col-sm-6">
                     <div class="advantage_Section">
-                        <div class="advantage_Section_Img"> <img src="images/import_photos.jpg" class="img-fluid" alt="Photobook"> </div>
+                        <div class="advantage_Section_Img"> <img src="images/products/import_photos.jpg" class="img-fluid" alt="Photobook"> </div>
                         <div class="advantage_Section_Title">
                             <h5>Import photos <br> from your social networks</h5>
                         </div>
@@ -125,7 +127,7 @@
                 </div>
                 <div class="col-lg-4 col-md-5 col-sm-6">
                     <div class="advantage_Section">
-                        <div class="advantage_Section_Img"> <img src="images/photo_editing.jpg" class="img-fluid" alt="Photobook"> </div>
+                        <div class="advantage_Section_Img"> <img src="images/products/photo_editing.jpg" class="img-fluid" alt="Photobook"> </div>
                         <div class="advantage_Section_Title">
                             <h5>Photo editing </h5>
                         </div>
@@ -136,7 +138,7 @@
                 </div>
                 <div class="col-lg-4 col-md-5 col-sm-6">
                     <div class="advantage_Section">
-                        <div class="advantage_Section_Img"> <img src="images/templates.jpg" class="img-fluid" alt="Photobook"> </div>
+                        <div class="advantage_Section_Img"> <img src="images/products/templates.jpg" class="img-fluid" alt="Photobook"> </div>
                         <div class="advantage_Section_Title">
                             <h5>Templates</h5>
                         </div>
@@ -243,7 +245,7 @@
                             <div class="carousel-item active">
                                 <div class="testimonial_div">
                                     <div class="d-sm-flex align-items-center">
-                                        <div class="testimonial_image"> <img src="images/testimonial1.jpg" alt="Photobook"> </div>
+                                        <div class="testimonial_image"> <img src="images/testimonial/testimonial1.jpg" alt="Photobook"> </div>
                                         <div class="testimonial_caption">
                                             <h3 class="text-uppercase"><span>John </span> <span> Doe</span></h3>
                                             <p class="m-0">Wedding photographer</p>
@@ -258,7 +260,7 @@
                             <div class="carousel-item ">
                                 <div class="testimonial_div">
                                     <div class="d-sm-flex align-items-center">
-                                        <div class="testimonial_image"> <img src="images/testimonial1.jpg" alt="Photobook"> </div>
+                                        <div class="testimonial_image"> <img src="images/testimonial/testimonial1.jpg" alt="Photobook"> </div>
                                         <div class="testimonial_caption">
                                             <h3 class="text-uppercase"> <span>John </span> <span> Doe</span></h3>
                                             <p class="m-0">Wedding photographer</p>
@@ -271,8 +273,8 @@
                                 </div>
                             </div>
                         </div>
-                        <a class="carousel-control-prev" href="#testimonials" data-slide="prev"> <span class=""><img src="images/arrow_prev.png" alt="Photobook"> Previous testimonial</span> </a>
-                        <a class="carousel-control-next" href="#testimonials" data-slide="next"> <span class="text-dark">  Next testimonial <img src="images/arrow_next.png" alt="Photobook"></span> </a>
+                        <a class="carousel-control-prev" href="#testimonials" data-slide="prev"> <span class=""><img src="images/icons/arrow_prev.png" alt="Photobook"> Previous testimonial</span> </a>
+                        <a class="carousel-control-next" href="#testimonials" data-slide="next"> <span class="text-dark">  Next testimonial <img src="images/icons/arrow_next.png" alt="Photobook"></span> </a>
                     </div>
                     <div class="text-center">
                         <button class="btn btn-outline-dark text-uppercase btn_photobook">make your photobook</button>
@@ -330,13 +332,13 @@
                     <div class="social_div float-md-right">
                         <hr>
                         <div class="">
-                            <a href="#"> <img src="images/facebook.png" alt="Photobook"> </a>
-                            <a href="#"> <img src="images/blog.png" alt="Photobook"> </a>
-                            <a href="#"> <img src="images/instagram.png" alt="Photobook"> </a>
+                            <a href="#"> <img src="images/icons/facebook.png" alt="Photobook"> </a>
+                            <a href="#"> <img src="images/icons/blog.png" alt="Photobook"> </a>
+                            <a href="#"> <img src="images/icons/instagram.png" alt="Photobook"> </a>
                         </div>
                         <div class="agency">
                             <p> Designed by</p>
-                            <a href=""><img src="images/agency_logo.png" alt="Photobook"></a>
+                            <a href=""><img src="images/icons/agency_logo.png" alt="Photobook"></a>
                         </div>
                     </div>
                 </div>
@@ -348,15 +350,14 @@
         <!-- Copyright -->
     </footer>
     <!-- Footer section End-->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script>
-        AOS.init();
-    </script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/aos.js"></script>
+
     <script>
         $(document).ready(function() {
+            AOS.init();
             $('.advantage_Section').click(function(e) {
                 $(this).parent().siblings().children('.advantage_Section').removeClass('greyScale');
                 console.warn(e);
